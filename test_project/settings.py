@@ -94,44 +94,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'test_project.wsgi.application'
 CSRF_TRUSTED_ORIGINS = ["https://gradproject.azurewebsites.net", "https://www.gradproject.azurewebsites.net"]
 
-# DATABASES = {
 
-#     'default': {
-
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-
-#         'NAME': 'd2u0c4ugqvmigm',
-
-#         'USER': 'inpigxugpfdnku',
-
-#         'PASSWORD': '8c0a56bf419271b79ced61bf525497122ee391b20b2f92097c26cbdd6b706ab9',
-
-#         'HOST': 'ec2-23-23-182-238.compute-1.amazonaws.com',
-
-#         'PORT': '5432'
-
-#     }
-
-# }
-# DATABASES = {
-
-#     'default': {
-
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-
-#         'NAME': 'postgres',
-
-#         'USER': 'khaled1@azure99',
-
-#         'PASSWORD': 'K8H6A9L9ed*',
-
-#         'HOST': 'azure99.postgres.database.azure.com',
-
-#         'PORT': '5432'
-
-#     }
-
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
